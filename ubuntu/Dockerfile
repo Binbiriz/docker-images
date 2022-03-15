@@ -1,6 +1,7 @@
 FROM ubuntu:18.04
 
 RUN apt-get update
+RUN DEBIAN_FRONTEND=noninteractive apt-get upgrade --yes
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y software-properties-common git curl wget rsync
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y unrar-free p7zip-full p7zip-rar unzip
 RUN add-apt-repository ppa:ondrej/php
@@ -20,6 +21,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get remove --yes --purge php7.2*
 RUN DEBIAN_FRONTEND=noninteractive apt-get remove --yes --purge php7.3*
 RUN DEBIAN_FRONTEND=noninteractive apt-get remove --yes --purge php7.4*
 RUN DEBIAN_FRONTEND=noninteractive apt-get remove --yes --purge php8.0*
+RUN DEBIAN_FRONTEND=noninteractive apt-get autoremove --yes
+RUN DEBIAN_FRONTEND=noninteractive apt-get autoclean --yes
 
 # Register the COMPOSER_HOME environment variable
 ENV COMPOSER_HOME /composer
@@ -37,6 +40,9 @@ ENV COMPOSER_ALLOW_SUPERUSER 1
 RUN wget -O /usr/local/bin/composer https://getcomposer.org/download/2.2.7/composer.phar
 RUN chmod 755 /usr/local/bin/composer
 
+RUN cat /etc/os-release
+RUN cat /proc/version
+RUN apache2 -v
 RUN php --version
 RUN composer --version
 RUN update-alternatives --config php
