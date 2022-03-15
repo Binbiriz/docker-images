@@ -3,7 +3,7 @@ FROM php:8.1-apache
 RUN a2enmod rewrite
 
 # install the PHP extensions we need
-RUN apt-get update && apt-get install -y gnupg libpng-dev libjpeg-dev libpq-dev default-mysql-client git libbz2-dev libonig-dev
+RUN apt-get update && apt-get install -y gnupg libpng-dev libjpeg-dev libpq-dev default-mysql-client git libbz2-dev libonig-dev rsync
 RUN apt-get update && apt-get install -y libgmp-dev libxml2-dev acl unzip bc bzip2 wget libzip-dev libxslt-dev libmagickwand-dev
 # RUN pecl install xdebug && docker-php-ext-enable xdebug
 # RUN ln -s /usr/include/x86_64-linux-gnu/gmp.h /usr/include/gmp.h
@@ -103,7 +103,4 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
 #   && rm -rf "shellcheck-${SCVERSION}"
 
 # RUN npm -g install smmccabe/commercebot
-
-RUN apt-get update && apt-get install -y rsync
-
 RUN composer --version
