@@ -4,7 +4,7 @@ These images are used to deploy Drupal via GitLab CI/CD.
 
 ## Docker Hub
 
-[Binbiriz profile on docker hub](https://hub.docker.com/u/binbiriz)
+[Binbiriz profile on docker hub](https://hub.docker.com/u/binbiriz).
 
 ## Build and Publish Images
 
@@ -15,3 +15,7 @@ docker push binbiriz/ubuntu-18.04-php8.1:nonode
 docker build -t binbiriz/ubuntu-18.04-php8.1:node12 ./ubuntu-node/
 docker push binbiriz/ubuntu-18.04-php8.1:node12
 ```
+
+## Credits
+
+This repo is inspired by [Shawn McCabe's docker repo](https://github.com/smmccabe/docker).
