@@ -62,8 +62,14 @@ Compressed size: 173.53 MB
 docker build -t binbiriz/ubuntu-18.04-php8.1:nonode ./ubuntu/
 docker push binbiriz/ubuntu-18.04-php8.1:nonode
 
+docker build -t binbiriz/ubuntu-20.04-php8.1:nonode ./ubuntu2004/
+docker push binbiriz/ubuntu-20.04-php8.1:nonode
+
 docker build -t binbiriz/ubuntu-18.04-php8.1:node12 ./ubuntu-node/
 docker push binbiriz/ubuntu-18.04-php8.1:node12
+
+docker build -t binbiriz/ubuntu-20.04-php8.1:node12 ./ubuntu2004-node/
+docker push binbiriz/ubuntu-20.04-php8.1:node12
 ```
 
 ## Credits
