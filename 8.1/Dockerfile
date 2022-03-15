@@ -105,3 +105,5 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
 # RUN npm -g install smmccabe/commercebot
 
 RUN apt-get update && apt-get install -y rsync
+
+RUN composer --version
