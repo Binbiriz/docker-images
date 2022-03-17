@@ -1,0 +1,58 @@
+Step 29/36 : RUN cat /etc/os-release
+ ---> Running in 8805348b140e
+NAME="Ubuntu"
+VERSION="20.04.4 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.4 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
+Removing intermediate container 8805348b140e
+ ---> 8c73b7d847d8
+Step 30/36 : RUN cat /proc/version
+ ---> Running in caf3ef233453
+Linux version 5.4.0-104-generic (buildd@ubuntu) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #118~18.04.1-Ubuntu SMP Thu Mar 3 13:53:15 UTC 2022
+Removing intermediate container caf3ef233453
+ ---> 0dcd65950c2f
+Step 31/36 : RUN apache2 -v
+ ---> Running in 89778b66e783
+Server version: Apache/2.4.41 (Ubuntu)
+Server built:   2022-01-05T14:49:56
+Removing intermediate container 89778b66e783
+ ---> 01cbc8516009
+Step 32/36 : RUN php --version
+ ---> Running in c79031a5ef29
+PHP 8.0.16 (cli) (built: Feb 21 2022 14:42:00) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v4.0.16, Copyright (c) Zend Technologies
+    with Zend OPcache v8.0.16, Copyright (c), by Zend Technologies
+Removing intermediate container c79031a5ef29
+ ---> a85dd00b5be8
+Step 33/36 : RUN composer --version
+ ---> Running in 36f87bdcaaf9
+Composer version 2.2.9 2022-03-15 22:13:37
+Removing intermediate container 36f87bdcaaf9
+ ---> 3c52842f1734
+Step 34/36 : RUN node -v
+ ---> Running in 165401e4857a
+v12.22.10
+Removing intermediate container 165401e4857a
+ ---> 621d96feedcb
+Step 35/36 : RUN npm -v
+ ---> Running in dba42aa7c6a5
+6.14.16
+Removing intermediate container dba42aa7c6a5
+ ---> 229d4544f4f1
+Step 36/36 : RUN update-alternatives --config php
+ ---> Running in d7b39f06b765
+There is only one alternative in link group php (providing /usr/bin/php): /usr/bin/php8.0
+Nothing to configure.
+Removing intermediate container d7b39f06b765
+ ---> fe2c674bc867
+Successfully built fe2c674bc867
+Successfully tagged binbiriz/ubuntu-20.04-php8.0:node12

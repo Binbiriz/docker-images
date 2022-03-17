@@ -70,6 +70,9 @@ docker push binbiriz/ubuntu-18.04-php8.1:node12
 
 docker build -t binbiriz/ubuntu-20.04-php8.1:node12 ./ubuntu2004-node/
 docker push binbiriz/ubuntu-20.04-php8.1:node12
+
+docker build -t binbiriz/ubuntu-20.04-php8.0:node12 ./ubuntu2004-8.0-node/
+docker push binbiriz/ubuntu-20.04-php8.0:node12
 ```
 
 ## Credits
