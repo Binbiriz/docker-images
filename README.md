@@ -65,6 +65,9 @@ docker push binbiriz/ubuntu-18.04-php8.1:nonode
 docker build -t binbiriz/ubuntu-20.04-php8.1:nonode ./ubuntu2004/
 docker push binbiriz/ubuntu-20.04-php8.1:nonode
 
+docker build -t binbiriz/ubuntu-20.04-php8.0:nonode ./ubuntu2004-8.0/
+docker push binbiriz/ubuntu-20.04-php8.0:nonode
+
 docker build -t binbiriz/ubuntu-18.04-php8.1:node12 ./ubuntu-node/
 docker push binbiriz/ubuntu-18.04-php8.1:node12
 
@@ -73,6 +76,12 @@ docker push binbiriz/ubuntu-20.04-php8.1:node12
 
 docker build -t binbiriz/ubuntu-20.04-php8.0:node12 ./ubuntu2004-8.0-node/
 docker push binbiriz/ubuntu-20.04-php8.0:node12
+
+docker build -t binbiriz/ubuntu-18.04-php8.0:nonode - < ubuntu1804-8.0/Dockerfile
+docker push binbiriz/ubuntu-18.04-php8.0:nonode
+
+docker build -t binbiriz/ubuntu-18.04-php8.0:node12 - < ubuntu1804-8.0-node/Dockerfile
+docker push binbiriz/ubuntu-18.04-php8.0:node12
 ```
 
 ## Credits
