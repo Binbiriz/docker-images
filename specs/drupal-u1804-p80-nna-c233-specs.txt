@@ -1,0 +1,24 @@
+NAME="Ubuntu"
+VERSION="18.04.6 LTS (Bionic Beaver)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 18.04.6 LTS"
+VERSION_ID="18.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=bionic
+UBUNTU_CODENAME=bionic
+Linux version 5.4.0-107-generic (buildd@lcy02-amd64-070) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #121~18.04.1-Ubuntu SMP Thu Mar 24 17:21:33 UTC 2022
+Server version: Apache/2.4.29 (Ubuntu)
+Server built:   2022-03-16T16:53:42
+PHP 8.0.17 (cli) (built: Mar 20 2022 17:03:50) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v4.0.17, Copyright (c) Zend Technologies
+    with Zend OPcache v8.0.17, Copyright (c), by Zend Technologies
+Composer version 2.3.3 2022-04-01 22:15:35
+Node version: N/A
+Npm version: N/A
+There is only one alternative in link group php (providing /usr/bin/php): /usr/bin/php8.0
+Nothing to configure.
