@@ -1,6 +1,6 @@
 # Binbiriz Docker Images
 
-These images can be used to deploy Drupal via GitLab CI/CD.
+These images can be used to build and deploy Drupal via GitLab CI/CD. Please note that these images does not include Drupal itself.
 
 ## Docker Hub
 
