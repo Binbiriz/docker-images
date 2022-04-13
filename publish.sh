@@ -37,4 +37,10 @@ bash create-specs.sh "binbiriz" "drupal" "u2004-p81-n12-c233" "ubuntu-20.04-php8
 bash build-push.sh "binbiriz" "drupal" "u2004-p81-nna-c233" "ubuntu-20.04-php8.1" "nonode"
 bash create-specs.sh "binbiriz" "drupal" "u2004-p81-nna-c233" "ubuntu-20.04-php8.1" "nonode" "FALSE"
 
+bash build-push.sh "binbiriz" "drupal" "deb11-p80-n12-c207" "debian-11-php8.0" "node12"
+bash create-specs.sh "binbiriz" "drupal" "deb11-p80-n12-c207" "debian-11-php8.0" "node12" "TRUE"
+
+bash build-push.sh "binbiriz" "drupal" "deb11-p80-nna-c207" "debian-11-php8.0" "nonode"
+bash create-specs.sh "binbiriz" "drupal" "deb11-p80-nna-c207" "debian-11-php8.0" "nonode" "FALSE"
+
 ./node_modules/.bin/prettier --write IMAGES.md

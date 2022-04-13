@@ -1,0 +1,19 @@
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+Linux version 5.4.0-107-generic (buildd@lcy02-amd64-070) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #121~18.04.1-Ubuntu SMP Thu Mar 24 17:21:33 UTC 2022
+Server version: Apache/2.4.53 (Debian)
+Server built:   2022-03-14T16:28:35
+PHP 8.0.17 (cli) (built: Mar 29 2022 02:26:43) ( NTS )
+Copyright (c) The PHP Group
+Zend Engine v4.0.17, Copyright (c) Zend Technologies
+    with Zend OPcache v8.0.17, Copyright (c), by Zend Technologies
+Composer version 2.0.7 2020-11-13 17:31:06
+Node version: N/A
+Npm version: N/A
