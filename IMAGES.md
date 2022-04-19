@@ -167,3 +167,19 @@ docker pull binbiriz/debian-11-php8.0:nonode
 | Composer   | 2.0.7 2020-11-13 17:31:06                           |
 | Node       | N/A                                                 |
 | Npm        | N/A                                                 |
+
+### binbiriz/drupal:u1804-p74-nna-c233
+
+```bash
+docker pull binbiriz/drupal:u1804-p74-nna-c233
+docker pull binbiriz/ubuntu-18.04-php7.4:nonode
+```
+
+| **Spec**   | **Version**                                         |
+| :--------- | :-------------------------------------------------- |
+| OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
+| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-03-16T16:53:42) |
+| PHP        | 7.4.28 (cli) (built: Feb 17 2022 16:06:19) ( NTS )  |
+| Composer   | 2.3.3 2022-04-01 22:15:35                           |
+| Node       | N/A                                                 |
+| Npm        | N/A                                                 |

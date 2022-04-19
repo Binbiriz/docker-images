@@ -43,4 +43,8 @@ bash create-specs.sh "binbiriz" "drupal" "deb11-p80-n12-c207" "debian-11-php8.0"
 bash build-push.sh "binbiriz" "drupal" "deb11-p80-nna-c207" "debian-11-php8.0" "nonode"
 bash create-specs.sh "binbiriz" "drupal" "deb11-p80-nna-c207" "debian-11-php8.0" "nonode" "FALSE"
 
+# Dockerfile: dockerfiles/u1804-p74-nna-c233.Dockerfile
+bash build-push.sh "binbiriz" "drupal" "u1804-p74-nna-c233" "ubuntu-18.04-php7.4" "nonode"
+bash create-specs.sh "binbiriz" "drupal" "u1804-p74-nna-c233" "ubuntu-18.04-php7.4" "nonode" "FALSE"
+
 ./node_modules/.bin/prettier --write IMAGES.md
