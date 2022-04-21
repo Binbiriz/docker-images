@@ -36,8 +36,6 @@ ENV PATH ./vendor/bin:/composer/vendor/bin:$PATH
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
 # Install composer
-# RUN curl -o /tmp/composer-setup.php https://getcomposer.org/installer \
-#  && php /tmp/composer-setup.php --no-ansi --install-dir=/usr/local/bin --filename=composer && rm -rf /tmp/composer-setup.php
 RUN wget -O /usr/local/bin/composer https://getcomposer.org/download/2.3.3/composer.phar
 RUN chmod 755 /usr/local/bin/composer
 
