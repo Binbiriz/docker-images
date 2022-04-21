@@ -96,3 +96,9 @@ bash build-push.sh "binbiriz" "drupal" "u2004-p81-nna-c233" "ubuntu-20.04-php8.1
 bash create-specs.sh "binbiriz" "drupal" "u2004-p81-nna-c233" "ubuntu-20.04-php8.1" "nonode" "FALSE"
 
 ./node_modules/.bin/prettier --write IMAGES.md
+
+# Dockerfile: dockerfiles/u1804-p74-n14-c233.Dockerfile
+bash build-push.sh "binbiriz" "drupal" "u1804-p74-n14-c233" "ubuntu-18.04-php7.4" "node14"
+bash create-specs.sh "binbiriz" "drupal" "u1804-p74-n14-c233" "ubuntu-18.04-php7.4" "node14" "TRUE"
+
+./node_modules/.bin/prettier --write IMAGES.md
