@@ -45,6 +45,6 @@ RUN chmod 755 /usr/local/bin/composer
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - \
   && apt-get install -y nodejs
 
-  # Install specific node version
+# Install specific node version
 RUN npm install -g n
 RUN n 14.15.4
