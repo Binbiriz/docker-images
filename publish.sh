@@ -108,3 +108,9 @@ bash build-push.sh "binbiriz" "drupal" "u1804-p74-n10-c233" "ubuntu-18.04-php7.4
 bash create-specs.sh "binbiriz" "drupal" "u1804-p74-n10-c233" "ubuntu-18.04-php7.4" "node10" "TRUE"
 
 ./node_modules/.bin/prettier --write IMAGES.md
+
+# Dockerfile: dockerfiles/deb11-p74-n10-c233.Dockerfile
+bash build-push.sh "binbiriz" "drupal" "deb11-p74-n10-c233" "debian-11-php7.4" "node10"
+bash create-specs.sh "binbiriz" "drupal" "deb11-p74-n10-c233" "debian-11-php7.4" "node10" "TRUE"
+
+./node_modules/.bin/prettier --write IMAGES.md

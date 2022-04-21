@@ -263,3 +263,19 @@ docker pull binbiriz/ubuntu-18.04-php7.4:node10
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v10.16.0                                            |
 | Npm        | 6.9.0                                               |
+
+### binbiriz/drupal:deb11-p74-n10-c233
+
+```bash
+docker pull binbiriz/drupal:deb11-p74-n10-c233
+docker pull binbiriz/debian-11-php7.4:node10
+```
+
+| **Spec**   | **Version**                                         |
+| :--------- | :-------------------------------------------------- |
+| OS         | Debian GNU/Linux 11 (bullseye)                      |
+| Web Server | Apache/2.4.53 (Debian) (built: 2022-03-14T16:28:35) |
+| PHP        | 7.4.29 (cli) (built: Apr 20 2022 12:13:53) ( NTS )  |
+| Composer   | 2.3.3 2022-04-01 22:15:35                           |
+| Node       | v10.16.0                                            |
+| Npm        | 6.9.0                                               |
