@@ -20,6 +20,7 @@ docker exec deneme cat /proc/version >> "$SPECFILE"
 docker exec deneme apache2 -v >> "$SPECFILE"
 docker exec deneme php --version >> "$SPECFILE"
 docker exec deneme composer --version >> "$SPECFILE"
+# docker exec deneme python -c 'import sys; print(sys.version)' >> "$SPECFILE"
 
 if [ "$PRINT_NODE_VERSION" == "TRUE" ]
 then

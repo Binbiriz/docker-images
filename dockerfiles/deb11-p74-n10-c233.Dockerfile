@@ -62,3 +62,5 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - \
 # Install specific node version
 RUN npm install -g n
 RUN n 10.16.0
+
+RUN apt-get -y install python
