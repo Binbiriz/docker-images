@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:18.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -45,4 +45,4 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - \
 
 # Install specific node version
 RUN npm install -g n
-RUN n 14.15.4
+RUN n 14.19.1
