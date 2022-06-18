@@ -82,8 +82,8 @@ docker pull binbiriz/ubuntu-18.04-php7.4:nonode
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
-| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-03-16T16:53:42) |
-| PHP        | 7.4.28 (cli) (built: Feb 17 2022 16:06:19) ( NTS )  |
+| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-04-26T00:46:43) |
+| PHP        | 7.4.30 (cli) (built: Jun 10 2022 13:33:01) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | N/A                                                 |
 | Npm        | N/A                                                 |
@@ -98,8 +98,8 @@ docker pull binbiriz/ubuntu-18.04-php8.0:node12
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
-| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-03-16T16:53:42) |
-| PHP        | 8.0.17 (cli) (built: Mar 20 2022 17:03:50) ( NTS )  |
+| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-04-26T00:46:43) |
+| PHP        | 8.0.20 (cli) (built: Jun 10 2022 13:11:14) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v12.22.12                                           |
 | Npm        | 6.14.16                                             |
@@ -114,8 +114,8 @@ docker pull binbiriz/ubuntu-18.04-php8.0:nonode
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
-| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-03-16T16:53:42) |
-| PHP        | 8.0.17 (cli) (built: Mar 20 2022 17:03:50) ( NTS )  |
+| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-04-26T00:46:43) |
+| PHP        | 8.0.20 (cli) (built: Jun 10 2022 13:11:14) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | N/A                                                 |
 | Npm        | N/A                                                 |
@@ -130,8 +130,8 @@ docker pull binbiriz/ubuntu-18.04-php8.1:node12
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
-| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-03-16T16:53:42) |
-| PHP        | 8.1.4 (cli) (built: Apr 4 2022 13:30:00) (NTS)      |
+| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-04-26T00:46:43) |
+| PHP        | 8.1.7 (cli) (built: Jun 10 2022 12:22:31) (NTS)     |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v12.22.12                                           |
 | Npm        | 6.14.16                                             |
@@ -146,8 +146,8 @@ docker pull binbiriz/ubuntu-18.04-php8.1:nonode
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
-| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-03-16T16:53:42) |
-| PHP        | 8.1.4 (cli) (built: Apr 4 2022 13:30:00) (NTS)      |
+| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-04-26T00:46:43) |
+| PHP        | 8.1.7 (cli) (built: Jun 10 2022 12:22:31) (NTS)     |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | N/A                                                 |
 | Npm        | N/A                                                 |
@@ -162,8 +162,8 @@ docker pull binbiriz/ubuntu-20.04-php8.0:node12
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 20.04.4 LTS (Focal Fossa)                    |
-| Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-03-16T16:52:53) |
-| PHP        | 8.0.17 (cli) (built: Mar 20 2022 17:04:09) ( NTS )  |
+| Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-04-26T18:02:11) |
+| PHP        | 8.0.20 (cli) (built: Jun 10 2022 13:11:29) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v12.22.12                                           |
 | Npm        | 6.14.16                                             |
@@ -178,8 +178,8 @@ docker pull binbiriz/ubuntu-20.04-php8.0:node14
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 20.04.4 LTS (Focal Fossa)                    |
-| Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-03-16T16:52:53) |
-| PHP        | 8.0.17 (cli) (built: Mar 20 2022 17:04:09) ( NTS )  |
+| Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-04-26T18:02:11) |
+| PHP        | 8.0.20 (cli) (built: Jun 10 2022 13:11:29) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v14.15.4                                            |
 | Npm        | 6.14.10                                             |
@@ -194,8 +194,8 @@ docker pull binbiriz/ubuntu-20.04-php8.0:nonode
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 20.04.4 LTS (Focal Fossa)                    |
-| Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-03-16T16:52:53) |
-| PHP        | 8.0.17 (cli) (built: Mar 20 2022 17:04:09) ( NTS )  |
+| Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-04-26T18:02:11) |
+| PHP        | 8.0.20 (cli) (built: Jun 10 2022 13:11:29) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | N/A                                                 |
 | Npm        | N/A                                                 |
@@ -210,8 +210,8 @@ docker pull binbiriz/ubuntu-20.04-php8.1:node12
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 20.04.4 LTS (Focal Fossa)                    |
-| Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-03-16T16:52:53) |
-| PHP        | 8.1.4 (cli) (built: Apr 4 2022 13:30:17) (NTS)      |
+| Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-04-26T18:02:11) |
+| PHP        | 8.1.7 (cli) (built: Jun 10 2022 12:22:48) (NTS)     |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v12.22.12                                           |
 | Npm        | 6.14.16                                             |
@@ -226,8 +226,8 @@ docker pull binbiriz/ubuntu-20.04-php8.1:nonode
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 20.04.4 LTS (Focal Fossa)                    |
-| Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-03-16T16:52:53) |
-| PHP        | 8.1.4 (cli) (built: Apr 4 2022 13:30:17) (NTS)      |
+| Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-04-26T18:02:11) |
+| PHP        | 8.1.7 (cli) (built: Jun 10 2022 12:22:48) (NTS)     |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | N/A                                                 |
 | Npm        | N/A                                                 |
@@ -242,8 +242,8 @@ docker pull binbiriz/ubuntu-18.04-php7.4:node14
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
-| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-03-16T16:53:42) |
-| PHP        | 7.4.28 (cli) (built: Feb 17 2022 16:06:19) ( NTS )  |
+| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-04-26T00:46:43) |
+| PHP        | 7.4.30 (cli) (built: Jun 10 2022 13:33:01) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v14.15.4                                            |
 | Npm        | 6.14.10                                             |
@@ -258,8 +258,8 @@ docker pull binbiriz/ubuntu-18.04-php7.4:node10
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
-| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-03-16T16:53:42) |
-| PHP        | 7.4.28 (cli) (built: Feb 17 2022 16:06:19) ( NTS )  |
+| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-04-26T00:46:43) |
+| PHP        | 7.4.30 (cli) (built: Jun 10 2022 13:33:01) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v10.16.0                                            |
 | Npm        | 6.9.0                                               |
@@ -275,7 +275,7 @@ docker pull binbiriz/debian-11-php7.4:node10
 | :--------- | :-------------------------------------------------- |
 | OS         | Debian GNU/Linux 11 (bullseye)                      |
 | Web Server | Apache/2.4.53 (Debian) (built: 2022-03-14T16:28:35) |
-| PHP        | 7.4.29 (cli) (built: Apr 20 2022 12:13:53) ( NTS )  |
+| PHP        | 7.4.30 (cli) (built: Jun 9 2022 23:05:25) ( NTS )   |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v10.16.0                                            |
 | Npm        | 6.9.0                                               |
@@ -290,8 +290,8 @@ docker pull binbiriz/ubuntu-18.04-php8.0:node14
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
-| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-03-16T16:53:42) |
-| PHP        | 8.0.17 (cli) (built: Mar 20 2022 17:03:50) ( NTS )  |
+| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-04-26T00:46:43) |
+| PHP        | 8.0.20 (cli) (built: Jun 10 2022 13:11:14) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v14.19.1                                            |
 | Npm        | 6.14.16                                             |
