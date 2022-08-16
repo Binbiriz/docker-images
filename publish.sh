@@ -10,7 +10,7 @@ echo "[Binbiriz profile on Docker Hub](https://hub.docker.com/u/binbiriz)." >> "
 echo "" >> "IMAGES.md"
 echo "[Binbiriz Drupal repository on Docker Hub](https://hub.docker.com/r/binbiriz/drupal)." >> "IMAGES.md"
 echo "" >> "IMAGES.md"
-echo "## Current Images" >> "IMAGES.md"
+echo "## Current Images (Repository Summary)" >> "IMAGES.md"
 echo "" >> "IMAGES.md"
 
 # Dockerfile: dockerfiles/deb11-p80-n12-c207.Dockerfile
@@ -118,5 +118,11 @@ bash create-specs.sh "binbiriz" "drupal" "deb11-p74-n10-c233" "debian-11-php7.4"
 # Dockerfile: dockerfiles/u1804-p80-n14-c233.Dockerfile
 bash build-push.sh "binbiriz" "drupal" "u1804-p80-n14-c233" "ubuntu-18.04-php8.0" "node14"
 bash create-specs.sh "binbiriz" "drupal" "u1804-p80-n14-c233" "ubuntu-18.04-php8.0" "node14" "TRUE"
+
+./node_modules/.bin/prettier --write IMAGES.md
+
+# Dockerfile: dockerfiles/deb11-p74-n10-c2212.Dockerfile
+bash build-push.sh "binbiriz" "drupal" "deb11-p74-n10-c2212" "debian-11-php7.4-c2212" "node10"
+bash create-specs.sh "binbiriz" "drupal" "deb11-p74-n10-c2212" "debian-11-php7.4-c2212" "node10" "TRUE"
 
 ./node_modules/.bin/prettier --write IMAGES.md

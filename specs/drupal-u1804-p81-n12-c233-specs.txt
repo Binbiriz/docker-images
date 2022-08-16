@@ -10,13 +10,13 @@ BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
 VERSION_CODENAME=bionic
 UBUNTU_CODENAME=bionic
-Linux version 5.4.0-120-generic (buildd@lcy02-amd64-006) (gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1)) #136-Ubuntu SMP Fri Jun 10 13:40:48 UTC 2022
+Linux version 5.4.0-124-generic (buildd@lcy02-amd64-019) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #140~18.04.1-Ubuntu SMP Fri Aug 5 11:43:34 UTC 2022
 Server version: Apache/2.4.29 (Ubuntu)
-Server built:   2022-04-26T00:46:43
-PHP 8.1.7 (cli) (built: Jun 10 2022 12:22:31) (NTS)
+Server built:   2022-06-23T12:51:37
+PHP 8.1.8 (cli) (built: Jul 11 2022 08:29:39) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.1.7, Copyright (c) Zend Technologies
-    with Zend OPcache v8.1.7, Copyright (c), by Zend Technologies
+Zend Engine v4.1.8, Copyright (c) Zend Technologies
+    with Zend OPcache v8.1.8, Copyright (c), by Zend Technologies
 Composer version 2.3.3 2022-04-01 22:15:35
 Node version: v12.22.12
 Npm version: 6.14.16
