@@ -12,6 +12,8 @@ echo "[Binbiriz Drupal repository on Docker Hub](https://hub.docker.com/r/binbir
 echo "" >> "IMAGES.md"
 echo "## Current Images (Repository Summary)" >> "IMAGES.md"
 echo "" >> "IMAGES.md"
+echo "> *Updated on $(date '+%Y-%m-%d %H:%M:%S')*" >> "IMAGES.md"
+echo "" >> "IMAGES.md"
 
 # Dockerfile: dockerfiles/deb11-p80-n12-c207.Dockerfile
 bash build-push.sh "binbiriz" "drupal" "deb11-p80-n12-c207" "debian-11-php8.0" "node12"
