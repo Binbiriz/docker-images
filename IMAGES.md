@@ -8,7 +8,7 @@ These images can be used to build and deploy Drupal via GitLab CI/CD or any othe
 
 ## Current Images (Repository Summary)
 
-> *Updated on 2022-08-16 11:40:35*
+> _Updated on 2022-08-17 08:23:45_
 
 ### binbiriz/drupal:deb11-p80-n12-c207
 
@@ -101,7 +101,7 @@ docker pull binbiriz/ubuntu-18.04-php8.0:node12
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
 | Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-06-23T12:51:37) |
-| PHP        | 8.0.21 (cli) (built: Aug 1 2022 07:40:36) ( NTS )   |
+| PHP        | 8.0.22 (cli) (built: Aug 15 2022 09:39:40) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v12.22.12                                           |
 | Npm        | 6.14.16                                             |
@@ -117,7 +117,7 @@ docker pull binbiriz/ubuntu-18.04-php8.0:nonode
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
 | Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-06-23T12:51:37) |
-| PHP        | 8.0.21 (cli) (built: Aug 1 2022 07:40:36) ( NTS )   |
+| PHP        | 8.0.22 (cli) (built: Aug 15 2022 09:39:40) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | N/A                                                 |
 | Npm        | N/A                                                 |
@@ -133,7 +133,7 @@ docker pull binbiriz/ubuntu-18.04-php8.1:node12
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
 | Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-06-23T12:51:37) |
-| PHP        | 8.1.8 (cli) (built: Jul 11 2022 08:29:39) (NTS)     |
+| PHP        | 8.1.9 (cli) (built: Aug 15 2022 09:39:35) (NTS)     |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v12.22.12                                           |
 | Npm        | 6.14.16                                             |
@@ -149,7 +149,7 @@ docker pull binbiriz/ubuntu-18.04-php8.1:nonode
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
 | Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-06-23T12:51:37) |
-| PHP        | 8.1.8 (cli) (built: Jul 11 2022 08:29:39) (NTS)     |
+| PHP        | 8.1.9 (cli) (built: Aug 15 2022 09:39:35) (NTS)     |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | N/A                                                 |
 | Npm        | N/A                                                 |
@@ -293,7 +293,7 @@ docker pull binbiriz/ubuntu-18.04-php8.0:node14
 | :--------- | :-------------------------------------------------- |
 | OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
 | Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-06-23T12:51:37) |
-| PHP        | 8.0.21 (cli) (built: Aug 1 2022 07:40:36) ( NTS )   |
+| PHP        | 8.0.22 (cli) (built: Aug 15 2022 09:39:40) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v14.19.1                                            |
 | Npm        | 6.14.16                                             |
