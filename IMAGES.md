@@ -8,7 +8,7 @@ These images can be used to build and deploy Drupal via GitLab CI/CD or any othe
 
 ## Current Images (Repository Summary)
 
-> _Updated on 2022-08-17 08:23:45_
+> _Updated on 2022-09-06 09:13:02_
 
 ### binbiriz/drupal:deb11-p80-n12-c207
 
@@ -163,7 +163,7 @@ docker pull binbiriz/ubuntu-20.04-php8.0:node12
 
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
-| OS         | Ubuntu 20.04.4 LTS (Focal Fossa)                    |
+| OS         | Ubuntu 20.04.5 LTS (Focal Fossa)                    |
 | Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-06-14T13:30:55) |
 | PHP        | 8.0.22 (cli) (built: Aug 15 2022 09:39:57) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
@@ -179,7 +179,7 @@ docker pull binbiriz/ubuntu-20.04-php8.0:node14
 
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
-| OS         | Ubuntu 20.04.4 LTS (Focal Fossa)                    |
+| OS         | Ubuntu 20.04.5 LTS (Focal Fossa)                    |
 | Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-06-14T13:30:55) |
 | PHP        | 8.0.22 (cli) (built: Aug 15 2022 09:39:57) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
@@ -195,7 +195,7 @@ docker pull binbiriz/ubuntu-20.04-php8.0:nonode
 
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
-| OS         | Ubuntu 20.04.4 LTS (Focal Fossa)                    |
+| OS         | Ubuntu 20.04.5 LTS (Focal Fossa)                    |
 | Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-06-14T13:30:55) |
 | PHP        | 8.0.22 (cli) (built: Aug 15 2022 09:39:57) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
@@ -211,7 +211,7 @@ docker pull binbiriz/ubuntu-20.04-php8.1:node12
 
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
-| OS         | Ubuntu 20.04.4 LTS (Focal Fossa)                    |
+| OS         | Ubuntu 20.04.5 LTS (Focal Fossa)                    |
 | Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-06-14T13:30:55) |
 | PHP        | 8.1.9 (cli) (built: Aug 15 2022 09:39:52) (NTS)     |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
@@ -227,7 +227,7 @@ docker pull binbiriz/ubuntu-20.04-php8.1:nonode
 
 | **Spec**   | **Version**                                         |
 | :--------- | :-------------------------------------------------- |
-| OS         | Ubuntu 20.04.4 LTS (Focal Fossa)                    |
+| OS         | Ubuntu 20.04.5 LTS (Focal Fossa)                    |
 | Web Server | Apache/2.4.41 (Ubuntu) (built: 2022-06-14T13:30:55) |
 | PHP        | 8.1.9 (cli) (built: Aug 15 2022 09:39:52) (NTS)     |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
@@ -277,7 +277,7 @@ docker pull binbiriz/debian-11-php7.4:node10
 | :--------- | :-------------------------------------------------- |
 | OS         | Debian GNU/Linux 11 (bullseye)                      |
 | Web Server | Apache/2.4.54 (Debian) (built: 2022-06-09T04:26:43) |
-| PHP        | 7.4.30 (cli) (built: Aug 2 2022 08:35:54) ( NTS )   |
+| PHP        | 7.4.30 (cli) (built: Aug 23 2022 15:23:34) ( NTS )  |
 | Composer   | 2.3.3 2022-04-01 22:15:35                           |
 | Node       | v10.16.0                                            |
 | Npm        | 6.9.0                                               |
@@ -309,7 +309,7 @@ docker pull binbiriz/debian-11-php7.4-c2212:node10
 | :--------- | :-------------------------------------------------- |
 | OS         | Debian GNU/Linux 11 (bullseye)                      |
 | Web Server | Apache/2.4.54 (Debian) (built: 2022-06-09T04:26:43) |
-| PHP        | 7.4.30 (cli) (built: Aug 2 2022 08:35:54) ( NTS )   |
+| PHP        | 7.4.30 (cli) (built: Aug 23 2022 15:23:34) ( NTS )  |
 | Composer   | 2.2.12 2022-04-13 16:42:25                          |
 | Node       | v10.16.0                                            |
 | Npm        | 6.9.0                                               |
