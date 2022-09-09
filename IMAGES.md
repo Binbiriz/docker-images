@@ -8,7 +8,7 @@ These images can be used to build and deploy Drupal via GitLab CI/CD or any othe
 
 ## Current Images (Repository Summary)
 
-> _Updated on 2022-09-06 09:13:02_
+> _Updated on 2022-09-09 10:27:35_
 
 ### binbiriz/drupal:deb11-p80-n12-c207
 
@@ -313,3 +313,19 @@ docker pull binbiriz/debian-11-php7.4-c2212:node10
 | Composer   | 2.2.12 2022-04-13 16:42:25                          |
 | Node       | v10.16.0                                            |
 | Npm        | 6.9.0                                               |
+
+### binbiriz/drupal:u1804-p80-nna-c2212
+
+```bash
+docker pull binbiriz/drupal:u1804-p80-nna-c2212
+docker pull binbiriz/ubuntu-18.04-php8.0:nonode
+```
+
+| **Spec**   | **Version**                                         |
+| :--------- | :-------------------------------------------------- |
+| OS         | Ubuntu 18.04.6 LTS (Bionic Beaver)                  |
+| Web Server | Apache/2.4.29 (Ubuntu) (built: 2022-06-23T12:51:37) |
+| PHP        | 8.0.22 (cli) (built: Aug 15 2022 09:39:40) ( NTS )  |
+| Composer   | 2.2.12 2022-04-13 16:42:25                          |
+| Node       | N/A                                                 |
+| Npm        | N/A                                                 |
