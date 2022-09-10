@@ -1,5 +1,6 @@
 FROM ubuntu:18.04
 
+# Test GitHub Actions
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update
