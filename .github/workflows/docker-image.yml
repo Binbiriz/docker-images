@@ -24,7 +24,7 @@ jobs:
         run: |
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file was changed"
-            if "$file" == "dockerfiles/deb11-p80-n12-c207.Dockerfile"; then
+            if [ $file == "dockerfiles/deb11-p80-n12-c207.Dockerfile" ]; then
               docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
             fi
           done
