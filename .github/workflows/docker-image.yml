@@ -32,14 +32,19 @@ jobs:
             IMAGE_TWO="$1/$REPO_TWO:$TAG_TWO"
             docker build -t $IMAGE -t $IMAGE_TWO - < "./dockerfiles/$TAG.Dockerfile"
             docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-            docker push --all-tags
+            docker push $IMAGE
+            docker push $IMAGE_TWO
           }
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file was changed"
-            if [ $file == "dockerfiles/u2004-p81-nna-c233.Dockerfile" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u2004-p81-nna-c233" "ubuntu-20.04-php8.1" "nonode"
+
+            CHECKFILE="dockerfiles/deb11-p74-n10-c233.Dockerfile"
+            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
+              build_and_publish "binbiriz" "drupal" "deb11-p74-n10-c233" "debian-11-php7.4" "c233-node10"
             fi
-            if [ $file == "dockerfiles/u1804-p80-nna-c2212.Dockerfile" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p80-nna-c2212" "ubuntu-18.04-php8.0" "nonode"
+
+            CHECKFILE="dockerfiles/deb11-p74-n10-c2212.Dockerfile"
+            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
+              build_and_publish "binbiriz" "drupal" "deb11-p74-n10-c2212" "debian-11-php7.4" "c2212-node10"
             fi
           done
