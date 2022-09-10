@@ -25,14 +25,16 @@ jobs:
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file was changed"
             if [ $file == "dockerfiles/u2004-p81-nna-c233.Dockerfile" ] || [ $file == ".build_and_publish_all" ]; then
+              DFILE="dockerfiles/u2004-p81-nna-c233.Dockerfile"
               IMAGE="binbiriz/drupal:u2004-p81-nna-c233"
-              docker build -t $IMAGE - < $file
+              docker build -t $IMAGE - < $DFILE
               docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
               docker push $IMAGE
             fi
             if [ $file == "dockerfiles/u1804-p80-nna-c2212.Dockerfile" ] || [ $file == ".build_and_publish_all" ]; then
+              DFILE="dockerfiles/u1804-p80-nna-c2212.Dockerfile"
               IMAGE="binbiriz/drupal:u1804-p80-nna-c2212"
-              docker build -t $IMAGE - < $file
+              docker build -t $IMAGE - < $DFILE
               docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
               docker push $IMAGE
             fi
