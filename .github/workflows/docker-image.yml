@@ -22,20 +22,24 @@ jobs:
 
       - name: List all changed files
         run: |
+          function build_and_publish(){
+            USER=$1
+            REPO=$2
+            TAG=$3
+            REPO_TWO=$4
+            TAG_TWO=$5
+            IMAGE="$1/$REPO:$TAG"
+            IMAGE_TWO="$1/$REPO_TWO:$TAG_TWO"
+            docker build -t $IMAGE -t $IMAGE_TWO - < "./dockerfiles/$TAG.Dockerfile"
+            docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+            docker push --all-tags
+          }
           for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo "$file was changed"
             if [ $file == "dockerfiles/u2004-p81-nna-c233.Dockerfile" ] || [ $file == ".build_and_publish_all" ]; then
-              DFILE="dockerfiles/u2004-p81-nna-c233.Dockerfile"
-              IMAGE="binbiriz/drupal:u2004-p81-nna-c233"
-              docker build -t $IMAGE - < $DFILE
-              docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-              docker push $IMAGE
+              build_and_publish "binbiriz" "drupal" "u2004-p81-nna-c233" "ubuntu-20.04-php8.1" "nonode"
             fi
             if [ $file == "dockerfiles/u1804-p80-nna-c2212.Dockerfile" ] || [ $file == ".build_and_publish_all" ]; then
-              DFILE="dockerfiles/u1804-p80-nna-c2212.Dockerfile"
-              IMAGE="binbiriz/drupal:u1804-p80-nna-c2212"
-              docker build -t $IMAGE - < $DFILE
-              docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
-              docker push $IMAGE
+              build_and_publish "binbiriz" "drupal" "u1804-p80-nna-c2212" "ubuntu-18.04-php8.0" "nonode"
             fi
           done
