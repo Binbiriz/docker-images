@@ -1,7 +1,6 @@
 FROM php:8.0.17-apache-bullseye
 
 # Install packages needed
-# Test actions
 RUN apt-get update && apt-get -y install \
   libjpeg-dev \
   libfreetype6-dev \
