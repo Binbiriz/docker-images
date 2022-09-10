@@ -28,5 +28,6 @@ jobs:
               IMAGE="binbiriz/drupal:deb11-p80-n12-c207"
               docker build -t $IMAGE - < $file 
               docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+              docker push $IMAGE
             fi
           done
