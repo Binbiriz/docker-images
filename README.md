@@ -4,7 +4,7 @@ These images can be used to build and deploy Drupal via GitLab CI/CD. Please not
 
 ## GitHub Actions
 
-Only the changes in files in `dockerfiles` folder will trigger image build and publish for the changed files. However sometimes there is a need for building and pushing all the images. To do that, just add a timestamp line to `.build_and_publish_all` file like `2022-09-11 09:15:00`, and then commit and push. GitHub Actions is also looks for whether this file is changed or not. If so, it triggers build and push all images.
+Only the changes in files in `dockerfiles` folder will trigger image build and push/publish for the changed files. However sometimes there is a need for building and pushing all the images. To do that, just add a timestamp line to `.build_and_publish_all` file like `2022-09-11 09:15:00`, and then commit and push. GitHub Actions is also looks for whether this file is changed or not. If so, it triggers build and push/publish process for all images.
 
 ## Docker Hub
 
