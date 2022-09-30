@@ -157,4 +157,9 @@ jobs:
             if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
               build_and_publish "binbiriz" "drupal" "u1804-p80-n10-c2212" "ubuntu-18.04-php8.0" "node10"
             fi
+
+            CHECKFILE="dockerfiles/deb11-p80-n10-c2212.Dockerfile"
+            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
+              build_and_publish "binbiriz" "drupal" "deb11-p80-n10-c2212" "debian-11-php8.0" "node10"
+            fi
           done
