@@ -36,5 +36,5 @@ ENV PATH ./vendor/bin:/composer/vendor/bin:$PATH
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
 # Install composer
-RUN wget -O /usr/local/bin/composer https://getcomposer.org/download/2.3.3/composer.phar
+RUN wget -O /usr/local/bin/composer https://getcomposer.org/download/2.2.12/composer.phar
 RUN chmod 755 /usr/local/bin/composer
