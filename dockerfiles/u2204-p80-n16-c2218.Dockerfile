@@ -40,7 +40,7 @@ RUN wget -O /usr/local/bin/composer https://getcomposer.org/download/2.2.18/comp
 RUN chmod 755 /usr/local/bin/composer
 
 # Node
-RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - \
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - \
   && apt-get install -y nodejs
 
 # Install specific node version
