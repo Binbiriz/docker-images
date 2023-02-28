@@ -2,14 +2,12 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -162,12 +160,14 @@ jobs:
             if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
               build_and_publish "binbiriz" "drupal" "deb11-p80-n10-c2212" "debian-11-php8.0" "node10"
             fi
+
             CHECKFILE="dockerfiles/u2204-p80-n16-c2218.Dockerfile"
             if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
               build_and_publish "binbiriz" "drupal" "u2204-p80-n16-c2218" "ubuntu-22.04-php8.0" "node16"
             fi
-            CHECKFILE="dockerfiles/u2204-p80-naa-c2218.Dockerfile"
+
+            CHECKFILE="dockerfiles/u2204-p80-nna-c2218.Dockerfile"
             if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u2204-p80-naa-c2218" "ubuntu-22.04-php8.0" "nonode"
+              build_and_publish "binbiriz" "drupal" "u2204-p80-nna-c2218" "ubuntu-22.04-php8.0" "nonode"
             fi
           done
