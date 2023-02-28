@@ -17,8 +17,8 @@ Please visit [Binbiriz Drupal repository on Docker Hub](https://hub.docker.com/r
 ## Development
 
 ```txt
-node v16.17.0
-npm 8.15.0
+node v16.13.2
+npm 8.1.2
 ```
 
 ## Credits
