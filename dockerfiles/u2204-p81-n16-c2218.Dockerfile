@@ -22,7 +22,7 @@ RUN apt-get remove --yes --purge php7.1*
 RUN apt-get remove --yes --purge php7.2*
 RUN apt-get remove --yes --purge php7.3*
 RUN apt-get remove --yes --purge php7.4*
-RUN apt-get remove --yes --purge php8.1*
+RUN apt-get remove --yes --purge php8.0*
 RUN apt-get autoremove --yes
 RUN apt-get autoclean --yes
 
