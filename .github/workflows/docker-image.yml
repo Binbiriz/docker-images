@@ -66,51 +66,6 @@ jobs:
               build_and_publish "binbiriz" "drupal" "deb11-p80-nna-c2212" "debian-11-php8.0" "nonode"
             fi
 
-            CHECKFILE="dockerfiles/u1804-p74-n10-c233.Dockerfile"
-            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p74-n10-c233" "ubuntu-18.04-php7.4" "node10"
-            fi
-
-            CHECKFILE="dockerfiles/u1804-p74-n14-c233.Dockerfile"
-            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p74-n14-c233" "ubuntu-18.04-php7.4" "node14"
-            fi
-
-            CHECKFILE="dockerfiles/u1804-p74-nna-c233.Dockerfile"
-            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p74-nna-c233" "ubuntu-18.04-php7.4" "nonode"
-            fi
-
-            CHECKFILE="dockerfiles/u1804-p80-n12-c233.Dockerfile"
-            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p80-n12-c233" "ubuntu-18.04-php8.0" "node12"
-            fi
-
-            CHECKFILE="dockerfiles/u1804-p80-n14-c233.Dockerfile"
-            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p80-n14-c233" "ubuntu-18.04-php8.0" "node14"
-            fi
-
-            CHECKFILE="dockerfiles/u1804-p80-nna-c2212.Dockerfile"
-            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p80-nna-c2212" "ubuntu-18.04-php8.0" "nonode"
-            fi
-
-            CHECKFILE="dockerfiles/u1804-p80-nna-c233.Dockerfile"
-            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p80-nna-c233" "ubuntu-18.04-php8.0" "nonode"
-            fi
-
-            CHECKFILE="dockerfiles/u1804-p81-n12-c233.Dockerfile"
-            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p81-n12-c233" "ubuntu-18.04-php8.1" "node12"
-            fi
-
-            CHECKFILE="dockerfiles/u1804-p81-nna-c233.Dockerfile"
-            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p81-nna-c233" "ubuntu-18.04-php8.1" "nonode"
-            fi
-
             CHECKFILE="dockerfiles/u2004-p80-n12-c233.Dockerfile"
             if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
               build_and_publish "binbiriz" "drupal" "u2004-p80-n12-c233" "ubuntu-20.04-php8.0" "node12"
@@ -149,11 +104,6 @@ jobs:
             CHECKFILE="dockerfiles/u2004-p80-n10-c2212.Dockerfile"
             if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
               build_and_publish "binbiriz" "drupal" "u2004-p80-n10-c2212" "ubuntu-20.04-php8.0" "node10"
-            fi
-
-            CHECKFILE="dockerfiles/u1804-p80-n10-c2212.Dockerfile"
-            if [ $file == "$CHECKFILE" ] || [ $file == ".build_and_publish_all" ]; then
-              build_and_publish "binbiriz" "drupal" "u1804-p80-n10-c2212" "ubuntu-18.04-php8.0" "node10"
             fi
 
             CHECKFILE="dockerfiles/deb11-p80-n10-c2212.Dockerfile"
